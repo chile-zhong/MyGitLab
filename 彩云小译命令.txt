@@ -1,0 +1,23 @@
+javascript: void((function () {
+        if (!document.body) {
+            return
+        }
+        var popup = document.querySelectorAll('.cyxy-target-popup');
+        if (popup && popup.length > 0) {
+            return
+        }
+        try {
+            var trs = document.createElement('script');
+            trs.type = 'text/javascript';
+            trs.charset = 'UTF-8';
+            trs.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'caiyunapp.com/dest/trs.js';
+            document.body.appendChild(trs);
+        } catch (e) {
+            alert(e);
+        }
+        document.addEventListener('securitypolicyviolation', function handler(e) {
+            console.error('securitypolicyviolation', e);
+            alert('由于当前网站的内容安全策略(Content Security Policy)，小译无法启动翻译程序，您可以在Chrome商店搜索彩云小译（LingoCloud）扩展进行翻译');
+            document.removeEventListener('securitypolicyviolation', handler);
+        });
+    })());
