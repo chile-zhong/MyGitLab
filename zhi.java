@@ -11,3 +11,6 @@ https://developer.android.com/guide/topics/ui/accessibility/service
 https://cloud.tencent.com/developer/article/1485280  Android：AccessibilityService辅助功能基础使用(附微信抢红包教程)
 http://lionoggo.com/2018/03/22/%E6%B7%B1%E5%85%A5Android%E8%BE%85%E5%8A%A9%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1/  深入Android辅助服务架构与设计
 https://blog.csdn.net/hj7jay/article/details/54860773 抢红包代码
+  
+调试disble  为什么使用位操作  是如何保存到xml中的  android.view.accessibility.AccessibilityNodeInfo#init是在什么时候调用的  试一下去掉disable也能实现同样的功能
+android.view.accessibility.AccessibilityNodeInfo#writeToParcel什么时候调用
