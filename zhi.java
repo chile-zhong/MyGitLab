@@ -14,3 +14,12 @@ https://blog.csdn.net/hj7jay/article/details/54860773 抢红包代码
   
 调试disble  为什么使用位操作  是如何保存到xml中的  android.view.accessibility.AccessibilityNodeInfo#init是在什么时候调用的  试一下去掉disable也能实现同样的功能
 android.view.accessibility.AccessibilityNodeInfo#writeToParcel什么时候调用
+~旖旎中子 12:10:28
+百度  20190514000297491    iRWXxqcfTJNR8u9qKd8k
+
+~旖旎中子 12:10:45
+搜狗    affac42d87f55298dcd51d67e0a505cf    53f3de8cbc7eb8b78aefbcdb3ba18089
+
+~旖旎中子 12:11:00
+有道    6bbf039ce2f38c08   Fg0bCSnWK8htErrHtU6Xx641JAyFlmBb
+
